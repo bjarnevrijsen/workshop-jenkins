@@ -12,5 +12,10 @@ pipeline {
                 echo 'Dit is een test'
             }
         }
+         stage('Test2'){
+            steps{
+                echo 'Dit is een andere test'
+            }
+        }
     }
 }
